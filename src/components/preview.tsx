@@ -8,7 +8,6 @@ export function Preview() {
         bg-no-repeat
         bg-cover
         bg-center
-        w-[100vw]
         h-[100vh]">
             <div
             className="

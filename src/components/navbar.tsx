@@ -6,7 +6,10 @@ export function Navbar() {
         bg-black/70
         py-[0.5rem]
         fixed
-        w-[100vw]">
+        w-[100vw]
+        top-0
+        left-0
+        z-10">
             <div
             className="
             container
