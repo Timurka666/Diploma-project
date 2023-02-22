@@ -3,7 +3,6 @@ export function About() {
     const hours: string[] = ["10-19", "10-19", "10-19", "10-19", "10-19", "10-19", "10-18"];
     
     return (
-        
             <div
             className="
             bg-white
