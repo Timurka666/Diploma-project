@@ -39,7 +39,8 @@ export function RepairService() {
         container
         mx-auto
         bg-white
-        py-[2rem]">
+        py-[2rem]
+        px-[2rem]">
             <h1
             className="
             text-3xl
@@ -56,7 +57,11 @@ export function RepairService() {
             <Carousel
             showIndicators={false}
             infiniteLoop={true}
-            showStatus={false}>
+            showStatus={false}
+            autoPlay={true}
+            interval={7000}
+            stopOnHover={true}
+            showThumbs={false}>
                 <CarouselItem title="Золото" text={gold} />
                 <CarouselItem title="Серебро" text={silver} />
                 <CarouselItem title="Ремонт" text={repair} />

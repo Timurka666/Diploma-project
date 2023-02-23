@@ -8,7 +8,7 @@ export function CarouselItem(props: IProps) {
     return (
         <div
         className="
-        w-[50rem]
+        w-[85%]
         mx-auto">
                 <h1
                 className="
