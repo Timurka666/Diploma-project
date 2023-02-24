@@ -3,6 +3,7 @@ import { Preview } from "./components/preview";
 import { About } from "./components/about";
 import { RepairService } from "./components/repairService";
 import { GoodsList } from "./components/goods";
+import { Contacts } from "./components/contacts";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <About />
         <RepairService />
         <GoodsList />
+        <Contacts />
       </div>
     </>
   );
