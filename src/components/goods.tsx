@@ -11,6 +11,7 @@ export function GoodsList() {
 ];
     return (
         <div
+        id="goods"
         className="
         container
         mx-auto

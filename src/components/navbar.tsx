@@ -1,4 +1,28 @@
+interface InnerLinks {
+    text: string,
+    link: string
+}
+
 export function Navbar() {
+    const links: InnerLinks[] = [
+        {
+            text: 'О нас',
+            link: '#about'
+        },
+        {
+            text: 'Расценки на ремонт',
+            link: '#repair'
+        },
+        {
+            text: 'Товары',
+            link: '#goods'
+        },
+        {
+            text: 'Контакты и адрес',
+            link: '#contacts'
+        }
+    ];
+
     return (
         <header
         className="
@@ -13,7 +37,9 @@ export function Navbar() {
             <div
             className="
             container
-            mx-auto">
+            mx-auto
+            flex
+            justify-around">
                 <h1
                 className="
                 font-serif
@@ -24,6 +50,20 @@ export function Navbar() {
                     Золотой<br />
                     ключик
                 </h1>
+                <div
+                className="
+                flex
+                gap-[2rem]">
+                    {links.map(
+                        (el, i) =>
+                        <a
+                        key={i}
+                        href={el.link}
+                        className="
+                        text-white
+                        text-xl">{el.text}</a>
+                    )}
+                </div>
             </div>
         </header>
     );

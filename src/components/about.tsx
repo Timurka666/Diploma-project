@@ -4,6 +4,7 @@ export function About() {
     
     return (
             <div
+            id="about"
             className="
             bg-white
             container

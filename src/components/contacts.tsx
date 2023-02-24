@@ -3,6 +3,7 @@ export function Contacts() {
 
     return (
         <div
+        id="contacts"
         className="
         container
         mx-auto
