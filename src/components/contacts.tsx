@@ -1,5 +1,5 @@
 export function Contacts() {
-    const contacts: string[] = ['Телефон: +7 (34374) 6-06-32'];
+    const contacts: string[] = ['Телефон: +7 (34374) 6-06-32', 'Электронная почта: zzolotoyklyuchick@mail.ru'];
 
     return (
         <div

@@ -41,8 +41,6 @@ export function GoodsList() {
                         alt=""
                         key={i}
                         className="
-                        w-[20rem]
-                        h-[20rem]
                         rounded-3xl
                         border-solid
                         border-yellow-300
