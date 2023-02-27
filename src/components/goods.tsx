@@ -17,10 +17,12 @@ export function GoodsList() {
         mx-auto
         bg-neutral-800
         py-[2rem]
-        px-[15rem]">
+        lg:px-[15rem]
+        px-[1rem]">
             <h1
             className="
-            text-3xl
+            md:text-3xl
+            text-2xl
             font-bold
             text-center
             text-yellow-600
@@ -33,7 +35,16 @@ export function GoodsList() {
             after:mt-[1rem]
             mb-[2rem]">НАШИ ТОВАРЫ</h1>
             <div
-            className="grid grid-cols-2 gap-y-[3rem] gap-x-[3rem] justify-items-center mx-auto">
+            className="
+            grid
+            grid-cols-1
+            md:grid-cols-2
+            lg:gap-y-[3rem]
+            gap-y-[1rem]
+            gap-x-[1rem]
+            lg:gap-x-[3rem]
+            justify-items-center
+            mx-auto">
                 {
                     images.map(
                         (el, i) => <img
@@ -41,6 +52,8 @@ export function GoodsList() {
                         alt=""
                         key={i}
                         className="
+                        md:w-auto
+                        w-[70%]
                         rounded-3xl
                         border-solid
                         border-yellow-300
