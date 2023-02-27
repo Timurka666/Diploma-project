@@ -8,12 +8,14 @@ export function CarouselItem(props: IProps) {
     return (
         <div
         className="
-        w-[85%]
+        w-[100%]
+        md:w-[85%]
         mx-auto">
                 <h1
                 className="
                 text-black
-                text-2xl
+                md:text-2xl
+                text-lg
                 text-center
                 bg-yellow-500
                 w-[20%]">{props.title}</h1>
@@ -22,7 +24,6 @@ export function CarouselItem(props: IProps) {
             bg-neutral-800
             w-[100%]
             h-auto
-            grid
             py-[1rem]
             px-[1rem]">
                 {
@@ -31,7 +32,8 @@ export function CarouselItem(props: IProps) {
                         key={id}
                         className="
                         text-white
-                        text-lg
+                        md:text-lg
+                        text-md
                         text-left">{el}</p>
                     )
                 }

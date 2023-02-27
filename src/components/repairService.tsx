@@ -32,6 +32,7 @@ export function RepairService() {
         'Вклейка камня - 50р',
         'Замена пружины, штифта, болтика и т.п. - от 100р'
     ];
+    
 
     return (
         <div
@@ -41,10 +42,11 @@ export function RepairService() {
         mx-auto
         bg-white
         py-[2rem]
-        px-[2rem]">
+        md:px-[2rem]">
             <h1
             className="
-            text-3xl
+            md:text-3xl
+            text-2xl
             font-bold
             text-center
             after:content-['']
@@ -62,7 +64,8 @@ export function RepairService() {
             autoPlay={true}
             interval={7000}
             stopOnHover={true}
-            showThumbs={false}>
+            showThumbs={false}
+            showArrows={window.innerWidth >= 768}>
                 <CarouselItem title="Золото" text={gold} />
                 <CarouselItem title="Серебро" text={silver} />
                 <CarouselItem title="Ремонт" text={repair} />

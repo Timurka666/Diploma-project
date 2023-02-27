@@ -25,7 +25,8 @@ export function About() {
                     <h1
                     className="
                     text-white
-                    text-3xl
+                    md:text-3xl
+                    text-2xl
                     font-bold">О нас</h1>
                     <p
                     className="
@@ -53,7 +54,8 @@ export function About() {
                     <h1
                     className="
                     text-white
-                    text-3xl
+                    md:text-3xl
+                    text-2xl
                     font-bold">График работы</h1>
                     <div
                     className="flex space-x-[2rem] mt-[1rem]">
