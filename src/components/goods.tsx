@@ -1,13 +1,13 @@
 export function GoodsList() {
     const images: string[] = [
-        '/img/g-ring1.jpeg',
-        '/img/s-earrings1.jpeg',
-        '/img/g-ring2.jpeg',
-        '/img/s-earrings2.jpeg',
-        '/img/g-earrings1.jpeg',
-        '/img/s-ring1.jpeg',
-        '/img/g-earrings2.jpeg',
-        '/img/s-ring2.jpeg'
+        './img/g-ring1.jpeg',
+        './img/s-earrings1.jpeg',
+        './img/g-ring2.jpeg',
+        './img/s-earrings2.jpeg',
+        './img/g-earrings1.jpeg',
+        './img/s-ring1.jpeg',
+        './img/g-earrings2.jpeg',
+        './img/s-ring2.jpeg'
 ];
     return (
         <div
