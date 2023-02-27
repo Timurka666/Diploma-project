@@ -18,7 +18,8 @@ export function CarouselItem(props: IProps) {
                 text-lg
                 text-center
                 bg-yellow-500
-                w-[20%]">{props.title}</h1>
+                md:w-[20%]
+                w-[35%]">{props.title}</h1>
             <div
             className="
             bg-neutral-800

@@ -17,7 +17,8 @@ export function GoodsList() {
         mx-auto
         bg-neutral-800
         py-[2rem]
-        lg:px-[15rem]
+        lg:px-[12rem]
+        md:px-[6rem]
         px-[1rem]">
             <h1
             className="

@@ -8,32 +8,38 @@ export function Contacts() {
         container
         mx-auto
         bg-neutral-800
-        flex
-        justify-around
+        lg:flex
+        lg:justify-around
+        lg:space-y-0
         py-[2rem]
-        px-[2rem]">
+        px-[2rem]
+        space-y-[2rem]">
             <div>
                 <h1
                 className="
                 text-yellow-600
-                text-3xl
+                md:text-3xl
+                text-2xl
                 font-bold
                 after:content-['']
                 after:block
-                after:w-[150px]
+                lg:after:w-[40%]
+                after:w-[20%]
                 after:h-[1px]
                 after:bg-yellow-500
                 after:mt-[1rem]">КОНТАКТЫ</h1>
                 <div
                 className="
-                mt-[2rem]">
+                lg:mt-[2rem]
+                mt-[1.5rem]">
                     {contacts.map(
                         (el, i) =>
                         <p
                         key={i}
                         className="
                         text-white
-                        text-lg">{el}</p>
+                        md:text-lg
+                        text-md">{el}</p>
                     )}
                 </div>
             </div>
@@ -42,21 +48,25 @@ export function Contacts() {
                 <h1
                 className="
                 text-yellow-600
-                text-3xl
+                md:text-3xl
+                text-2xl
                 font-bold
                 after:content-['']
                 after:block
-                after:w-[30%]
+                lg:after:w-[40%]
+                after:w-[20%]
                 after:h-[1px]
                 after:bg-yellow-500
                 after:mt-[1rem]">АДРЕС</h1>
                 <div
                 className="
-                mt-[2rem]">
+                lg:mt-[2rem]
+                mt-[1.5rem]">
                     <p
                     className="
                     text-white
-                    text-lg">г. Сысерть, ул. Орджоникидзе, 54А, 624022</p>
+                    md:text-lg
+                    text-md">г. Сысерть, ул. Орджоникидзе, 54А, 624022</p>
                 </div>
             </div>
         </div>
