@@ -12,7 +12,7 @@ function App() {
       <Preview />
       <div
       className="
-      bg-gradient-to-b from-yellow-400 to-yellow-700 md:py-[2rem] lg:py-[2rem] md:space-y-[2rem] lg:space-y-[2rem]">
+      bg-gradient-to-b from-yellow-400 to-yellow-700 lg:py-[2rem] md:space-y-[1rem] lg:space-y-[2rem]">
         <About />
         <RepairService />
         <GoodsList />

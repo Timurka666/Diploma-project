@@ -6,16 +6,18 @@ export function About() {
             <div
             id="about"
             className="
-            bg-white
+            lg:bg-white
+            bg-neutral-800
             container
             mx-auto
-            py-[2rem]
-            px-[1rem]
-            flex
-            justify-around">
+            lg:py-[2rem]
+            lg:px-[1rem]
+            lg:flex
+            lg:justify-around">
                 <div
                 className="
-                w-[35rem]
+                lg:w-[35rem]
+                md:w-[100%]
                 h-auto
                 px-[1rem]
                 py-[1rem]
@@ -43,7 +45,7 @@ export function About() {
 
                 <div
                 className="
-                w-[25rem]
+                lg:w-[25rem]
                 h-auto
                 px-[1rem]
                 py-[1rem]
