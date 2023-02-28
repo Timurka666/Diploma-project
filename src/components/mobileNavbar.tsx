@@ -10,7 +10,7 @@ interface IProps {
 
 export function MobileNavbar(props: IProps) {
     const {links, menuStatus, closeFunc} = props;
-    const [style, setStyle] = useState({left: '0px'});
+    const [style, setStyle] = useState({left: '100vw'});
 
     useEffect(() => {
         if (menuStatus) {
