@@ -96,7 +96,7 @@ export function Navbar() {
                 </button>
             </div>
         </header>
-        <MobileNavbar links={links} menuStatus={isMenu} closeFunc={setMenu} />
+        <MobileNavbar links={links} menuStatus={isMenu} closeFunc={() => {setMenu(false)}} />
         </>
     );
 }
